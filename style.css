@@ -1,0 +1,131 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+   
+  }
+.nav{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 10vh;
+    display: flex;
+}
+.icon1{
+    margin: 2vh 0 0 3vh;
+    height: 6vh;
+    width: 6vh;
+}
+.nav h2 {
+    margin-top : 3vh;
+    margin-left : 1vh;
+    width: 4vw;
+    font-family: 'Roboto', sans-serif;
+    color: #5F6368;
+}
+.search{
+
+    height: 7vh;
+    width: 70vh;
+    margin: 1.5vh 0 0 22vh;
+    border-radius: 3vw;
+    background-color: #F1F3F4;
+    border: transparent;
+    font-size: 1.4vw;
+}
+.search i{
+    margin-left: 2vw;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 7vh;
+    width: 20vw;
+    font-size: 1.4vw;
+}
+
+
+.leftdiv{
+    
+    width: 15vw;
+    height: 100vh;
+ 
+}
+.leftdiv button{
+    width:  8vw;
+   height: 7vh;
+    border-radius: 2vw;
+    margin: 3vh 0 0 2vh;
+    font-size: 2vh;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftdiv h5{
+    color: #5F6368;
+    margin-top: 4vh;
+    font-size: 2vh;
+    font-family: sans-serif;
+    margin-left: 3vw;
+}
+.content{
+       height: 80vh;
+       width: 85vw;
+  
+}
+hr{
+    border-top: 1px solid red;
+}
+.div{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between ;
+}
+.contentHeading{
+  
+    font-family: sans-serif;
+    height: 6vh;
+}
+.contentHeading h4{
+    text-align: center;
+    font-size: 2vw;
+    color: #202124;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.contentLi{
+    background-color: #A0A4A9;
+    padding: 0.5rem;
+    width: 10vw;
+    border-radius: 0.25rem;
+   
+   
+}
+.contentLi h5{
+  margin: 0px;
+   background-color: #A0A4A9;
+  width: 10vw;
+  text-align: center;
+}
+.contentLi img{
+    height: 30vh;
+    width: 10vw;
+  
+   
+}
+.contents{
+    display: flex;
+    flex-flow:row wrap ;
+    gap: 2vw 3vh;
+} 
+@media screen {
+    min-width:  0px;
+}
+img:hover{
+    height: 100%;
+    width: 100%;
+}
